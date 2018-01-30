@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -23,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <!--<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
-          <a class="nav-item nav-link" href="how-it-works.html">How it works</a>
+          <a class="nav-item nav-link" href="how-it-works.html">About us</a>
           <a class="nav-item nav-link" href="signup.html">Sign up</a>
         </div>
       </div>
@@ -36,24 +37,24 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="strugglingfamily2.PNG" alt="First slide">
+          <img class="d-block w-100" src="strugglingfamily2.PNG" alt="First slide" id="overlay">
           <div class="carousel-caption d-none d-md-block">
             <h5>60% of Americans will experience an unexpected financial shock this year</h5>
-            <p>According to Pew Research, the average shock set families back by $2,000</p>
+            <p><h6>According to Pew Research, the average shock set families back by $2,000</h6></p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="happyold2.PNG" alt="Second slide">
+          <img class="d-block w-100" src="happyold2.PNG" alt="Second slide" id="overlay">
           <div class="carousel-caption d-none d-md-block">
             <h5>But only half of families could come up with $2,000 within 30 days</h5>
-            <p>Could your family weather an emergency?</p>
+            <p><h6>Could your family weather an emergency?</h6></p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="familypark2.png" alt="Third slide">
+          <img class="d-block w-100" src="familypark2.png" alt="Third slide" id="overlay">
           <div class="carousel-caption d-none d-md-block">
             <h5>Don't wait until it's too late. Protect your family with Pay Your Way</h5>
-            <a class="btn btn-dark" href="how-it-works.html" role="button">Learn More</a>
+            <a class="btn btn-success" href="how-it-works.html" role="button">Learn More</a>
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="container">
+    <div class="container" id="stagetext">
       <div class="row">
         <div class="col-lg-12 text-center">
           <p class="header">How it works</p>
@@ -87,16 +88,25 @@
         </div>
       </div>
     </div>
-
     <div class="jumbotron" id="index">
-      <p class="button text-center">
+      <p class="buttonindex text-center">
         <a class="btn btn-success btn-lg" href="signup.html" role="button">Sign up today</a>
       </p>
     </div>
-
-
-
-
-
-  </body>
-</html>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <a class="navbar-brand" href="index.html">
+        <img src="sun.rays.small.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Pay Your Way</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!--<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+            <a class="nav-item nav-link" href="how-it-works.html">About us</a>
+            <a class="nav-item nav-link" href="signup.html">Sign up</a>
+          </div>
+        </div>
+      </nav>
+    </body>
+    </html>

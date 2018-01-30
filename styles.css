@@ -1,21 +1,40 @@
 
+#overlay{
+  filter: brightness(75%);
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .header {
-    margin-top: 2cm;
+    margin-top: 1cm;
+    font-size: 50px;
+}
+#stagetext {
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 0.5cm;
 }
 .stages {
   margin-top: 0.25cm;
 }
-
 .resize {
   max-width:50%;
   max-height:50%;
 }
-
 .resize1{
   max-width:40%;
   max-height:40%;
 }
-
 #index {
     margin-bottom: 0px;
     margin-right: 0px;
@@ -29,8 +48,8 @@
     color: white;
 }
 
-.button {
-  padding-top: 250px;
+.buttonindex {
+  padding-top: 285px;
   margin-bottom: 0px;
  }
 
@@ -46,19 +65,116 @@
  }
 */
 
+/*HOW IT WORKS PAGE*/
 #how-it-works {
-    padding-top: 275px;
+    padding-top: 290px;
     height: 450px;
     background-image: url(mamababy.png);
     border-radius: 0px;
     background-position: 0 25%;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(90%);
+}
+#jumbofont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #5CB85C;
+  font-weight: bold;
+}
+#subjumbofont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #5CB85C;
+  font-weight: bold;
+}
+#aboutus {
+  margin-bottom: 0.5cm;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+}
+#head1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
 }
 
-.mid-head {
-  margin-top: 1cm;
-}
 #head2 {
-margin-top: 2cm;
+  margin-top: 0.75cm;
+  margin-left: 1cm;
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+}
+#head25 {
+  margin-left: 1cm;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+#space {
+  margin-bottom: 1cm;
+}
+#finadvice {
+  padding-top: 290px;
+  height: 450px;
+  background-image: url(finadvicecouple.png);
+  border-radius: 0px;
+  background-position: 0 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(90%);
+  color: #5CB85C;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+#tagline {
+  padding-top: 85px;
+  font-weight: bold;
+}
+.subhead1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+}
+#customsolution {
+  margin-bottom: 0.5cm;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+}
+/*SIGN UP PAGE FORMATTING*/
+#gigecon  {
+  padding-top: 350px;
+  height: 450px;
+  background-image: url(gigecon2.jpg);
+  border-radius: 0px;
+  background-position: 0 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #5CB85C;
+  filter: brightness(90%);
+}
+#formtitle {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  margin-bottom: 0.5cm;
+}
+.pure-u-1 {
+  margin-top: 0.2cm;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+.submitbutton {
+    text-align: center;
+    margin-top: 0.2cm;
+    margin-bottom: 0.5cm;
+    font-family: 'Dosis', sans-serif;
+}
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+
+
+.form-row {
+  width: 50%;
+  justify-content: center;
 }
